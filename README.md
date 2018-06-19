@@ -1,6 +1,10 @@
 # ISF TouchDesigner
 
-A TouchDesigner component parsing ISF-flavoured GLSL code into
+ISF is a format that contains GLSL pixel shader and metadata on how users can
+interact with uniform variables as sliders, buttons, etc. Big kudos
+for [Vidvox](http://vidvox.net/) for creating it!
+
+This is a TouchDesigner component parsing ISF-flavoured GLSL code into
 TouchDesigner-flavoured GLSL. Uniform variables are exposes as
 custom parameters.
 
