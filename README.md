@@ -8,8 +8,7 @@ This is a TouchDesigner component parsing ISF-flavoured GLSL code into
 TouchDesigner-flavoured GLSL. Uniform variables are exposes as
 custom parameters.
 
-This is not a full implementation of ISF features but it covers all basic features. About 90% of projects from https://interactiveshaderformat.com are
-working correctly.
+This is not a full implementation of ISF features but it covers all basic features. Most compositions (using a single shader pass) from https://interactiveshaderformat.com are working correctly.
 
 ![Screenshot](https://raw.githubusercontent.com/marcinbiegun/isf-touchdesigner/master/docs/screenshot.png)
 
@@ -27,7 +26,6 @@ working correctly.
 
 * Multiple shader passes
 * A few less popular built-in methods
-* The Python code could be refactored
 
 ## Maintenance
 
