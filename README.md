@@ -8,23 +8,25 @@ This is a TouchDesigner component parsing ISF-flavoured GLSL code into
 TouchDesigner-flavoured GLSL. Uniform variables are exposes as
 custom parameters.
 
-This is not a full implementation of ISF features but it covers all basic features. Most compositions (using a single shader pass) from https://interactiveshaderformat.com are working correctly.
+This is not a full implementation of ISF but it covers most commonly used features. About 80% of compositions from https://interactiveshaderformat.com are working correctly.
 
 ![Screenshot](https://raw.githubusercontent.com/marcinbiegun/isf-touchdesigner/master/docs/screenshot.png)
 
 ## Features
 
-* Float, color, long (list), bool and shape ISF types are supported
-* ISF controls are exposed as custom oarameters
+* Input types: float, color, long (list), bool, event, shape
+* ISF controls are exposed as custom parameters on Base OP
 * Image / video input
 * Custom resolution
 * GLSL code translation is done by a single Python script, it's
   rather easy to follow
 * Works with latest TouchDesigner 099
+* Multiple passes (only one)
 
-## What's missing?
+## What's missing
 
-* Multiple shader passes
+* More than 1 additional pass
+* Vertex shader
 * A few less popular built-in methods
 
 ## Maintenance
