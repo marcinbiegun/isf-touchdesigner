@@ -4,9 +4,10 @@ ISF is a format that contains GLSL pixel shader and metadata on how users can
 interact with uniform variables as sliders, buttons, etc. Big kudos
 for [Vidvox](http://vidvox.net/) for creating it!
 
-This is a TouchDesigner component parsing ISF-flavoured GLSL code into
-TouchDesigner-flavoured GLSL. Uniform variables are exposes as
-custom parameters.
+This component parses ISF-flavoured GLSL code into
+TouchDesigner-flavoured GLSL.
+
+The workflow is very simple - just connect a Text DAT with ISF source code, it will work and expose defined input variables as custom parameters on the OP.
 
 This is not a full implementation of ISF but it covers most commonly used features. About 80% of compositions from https://interactiveshaderformat.com are working correctly.
 
@@ -29,6 +30,6 @@ This is not a full implementation of ISF but it covers most commonly used featur
 * Vertex shader
 * A few less popular built-in methods
 
-## Maintenance
+## Contribuing
 
 Issue reports and pull requests are welcome.
