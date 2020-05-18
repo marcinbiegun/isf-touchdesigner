@@ -29,6 +29,19 @@ This is not a full implementation of ISF but it covers most commonly used featur
 * More than 1 additional pass
 * Vertex shader
 * A few less popular built-in methods
+* Move python script to external file to show code changes in GIT
+
+## Changelog
+
+### 2020.05.28
+
+* fixed compatibility with TouchDesigner 2020
+* float parameters exposed as relative value in 0.0 to 1.0 range
+  instead of absolute value
+
+### 2028.06.13
+
+* initla release
 
 ## Contribuing
 
