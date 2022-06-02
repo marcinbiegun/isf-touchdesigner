@@ -13,25 +13,50 @@ This is not a full implementation of ISF but it covers most commonly used featur
 
 ![Screenshot](https://raw.githubusercontent.com/marcinbiegun/isf-touchdesigner/master/docs/screenshot.png)
 
+## Shader code compatibility
+
+Supported variables:
+
+```
+PASSINDEX
+RENDERSIZE
+isf_FragNormCoord
+TIME
+TIMEDELTA
+DATE
+FRAMEINDEX
+```
+
+Supported functions:
+
+```
+IMG_PIXEL()
+IMG_NORM_PIXEL()
+IMG_SIZE()
+```
+
 ## Features
 
-* Input types: float, color, long (list), bool, event, shape
+* Input types: `float`, `color`, `long`, `bool`, `event`, `shape`
 * ISF controls are exposed as custom parameters on Base OP
 * Image / video input
 * Custom resolution
 * GLSL code translation is done by a single Python script, it's
   rather easy to follow
 * Works with latest TouchDesigner 099
-* Multiple passes (only one)
+* Multiple passes (1 and 2)
 
 ## What's missing
 
-* More than 1 additional pass
+* Third pass
 * Vertex shader
-* A few less popular built-in methods
-* Move python script to external file to show code changes in GIT
 
 ## Changelog
+
+### 2022.06.02
+
+* fixed compatibility with TouchDesigner 2020.24200
+* added support for TIMEDELTA keyword
 
 ### 2020.05.28
 
@@ -39,9 +64,9 @@ This is not a full implementation of ISF but it covers most commonly used featur
 * float parameters exposed as relative value in 0.0 to 1.0 range
   instead of absolute value
 
-### 2028.06.13
+### 2018.06.13
 
-* initla release
+* initial release
 
 ## Contribuing
 
