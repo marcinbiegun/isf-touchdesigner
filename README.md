@@ -39,7 +39,9 @@ Supported functions:
 
 ```
 IMG_PIXEL()
+IMG_THIS_PIXEL()
 IMG_NORM_PIXEL()
+IMG_THIS_NORM_PIXEL()
 IMG_SIZE()
 ```
 
@@ -70,6 +72,10 @@ shape
 * Vertex shader
 
 ## Changelog
+
+### 2022.06.24
+
+* fix `IMG_THIS_PIXEL` and `IMG_THIS_NORM_PIXEL` sampler functions
 
 ### 2022.06.02
 
