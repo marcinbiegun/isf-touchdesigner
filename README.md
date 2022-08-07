@@ -68,10 +68,16 @@ shape
 
 ## What's missing
 
-* Third pass
-* Vertex shader
+* More than 2 passes
+* Vertex shader (`varying` not implemented)
 
 ## Changelog
+
+### 2022.08.07
+
+* make `IMG_THIS_PIXEL` work exactly like `IMG_THIS_NORM_PIXEL`
+* don't crash on invalid INPUTS and PASSES
+* fix ISF shaders using `fragColor` variable, usage is reserved for TD
 
 ### 2022.06.24
 
