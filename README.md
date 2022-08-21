@@ -4,6 +4,8 @@ This component integrates ISF shaders into TouchDesigner.
 
 Discussion thread: [https://forum.derivative.ca/t/isf-parser/10588](https://forum.derivative.ca/t/isf-parser/10588)
 
+Donations are welcome: https://ko-fi.com/martinrocker3d
+
 ## What is ISF?
 
 ISF (Interactive Sahder Format) is wrapper around GLSL pixel shaders. It standarizes way
